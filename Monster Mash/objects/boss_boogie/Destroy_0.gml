@@ -1,0 +1,3 @@
+enemy_destroy(type)
+
+
