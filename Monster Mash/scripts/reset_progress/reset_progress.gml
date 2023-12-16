@@ -73,6 +73,13 @@ store.challenge_homeslice=0
 store.challenge_hero=0
 store.challenge_bigbang=0
 store.challenge_eagleeyes=0
+store.lvl_wisdom=1
+store.lvl_adapt=1
+store.lvl_slayer=1
+store.lvl_homeslice=1
+store.lvl_hero=1
+store.lvl_bigbang=1
+store.lvl_eagleeyes=1
 //Statistics
 store.enemies_killed=0
 store.gold_earned=0

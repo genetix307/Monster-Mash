@@ -11,7 +11,7 @@ if store.card_slot_1 = 5 or store.card_slot_2 = 5 or store.card_slot_3 = 5 or st
 if hud.player_hp > hud.player_max_hp {hud.player_hp = hud.player_max_hp}
 
 //Quick Challenge
-if (store.challenge_a=3 or store.challenge_b=3 or store.challenge_c=3) and store.challenge_homeslice<3
+if (store.challenge_a=3 or store.challenge_b=3 or store.challenge_c=3) and store.challenge_homeslice<2+(store.lvl_homeslice)
 		{
 		store.challenge_homeslice+=1
 		}

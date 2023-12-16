@@ -5,7 +5,7 @@ image_alpha = 3.1
 //log_rotate(c_white,"Critical Hit!")
 
 //Quick Challenge
-if (store.challenge_a=6 or store.challenge_b=6 or store.challenge_c=6) and store.challenge_eagleeyes<30
+if (store.challenge_a=6 or store.challenge_b=6 or store.challenge_c=6) and store.challenge_eagleeyes<25+(5*store.lvl_eagleeyes)
 		{
 		store.challenge_eagleeyes+=1
 		}

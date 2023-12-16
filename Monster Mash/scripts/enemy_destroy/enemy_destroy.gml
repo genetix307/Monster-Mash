@@ -22,7 +22,7 @@ if store.card_slot_1 = 11 or store.card_slot_2 = 11 or store.card_slot_3 = 11 or
 	}
 
 //Quick Challenge
-if (store.challenge_a=2 or store.challenge_b=2 or store.challenge_c=2) and store.challenge_slayer<1000
+if (store.challenge_a=2 or store.challenge_b=2 or store.challenge_c=2) and store.challenge_slayer<900+(100*store.lvl_slayer)
 		{
 		store.challenge_slayer+=1
 		}

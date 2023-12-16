@@ -2,7 +2,7 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.01"
+version="1.03"
 devMode=1
 
 //Character Stats
@@ -85,6 +85,13 @@ challenge_homeslice=0
 challenge_hero=0
 challenge_bigbang=0
 challenge_eagleeyes=0
+lvl_wisdom=1
+lvl_adapt=1
+lvl_slayer=1
+lvl_homeslice=1
+lvl_hero=1
+lvl_bigbang=1
+lvl_eagleeyes=1
 
 //Statistics
 enemies_killed=0

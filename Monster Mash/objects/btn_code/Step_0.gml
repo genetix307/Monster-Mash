@@ -7,7 +7,6 @@ instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+strin
 save_game()
 }
 
-/*
 if myResult = "cashcow" and store.code_cashcow = 0
 {
 reward = 200
@@ -25,7 +24,7 @@ store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
 save_game()
 }
-
+/*
 if myResult = "sparechange" and store.code_sparechange = 0
 {
 reward = 100
@@ -43,7 +42,7 @@ store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
 save_game()
 }
-
+*/
 if myResult = "genetix" and store.code_genetix = 0
 {
 reward = 10000
@@ -52,7 +51,7 @@ store.gold += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gold!"
 save_game()
 }
-
+/*
 if myResult = "cookie" and store.code_cookie = 0
 {
 reward = 75

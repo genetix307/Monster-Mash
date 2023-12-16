@@ -54,6 +54,13 @@ function load_game(){
 	store.challenge_hero = ini_read_real( "save1", "challenge_hero",store.challenge_hero);
 	store.challenge_bigbang = ini_read_real( "save1", "challenge_bigbang",store.challenge_bigbang);
 	store.challenge_eagleeyes = ini_read_real( "save1", "challenge_eagleeyes",store.challenge_eagleeyes);
+	store.lvl_wisdom = ini_read_real( "save1", "lvl_wisdom",store.lvl_wisdom);
+	store.lvl_adapt = ini_read_real( "save1", "lvl_adapt",store.lvl_adapt);
+	store.lvl_slayer = ini_read_real( "save1", "lvl_slayer",store.lvl_slayer);
+	store.lvl_homeslice = ini_read_real( "save1", "lvl_homeslice",store.lvl_homeslice);
+	store.lvl_hero = ini_read_real( "save1", "lvl_hero",store.lvl_hero);
+	store.lvl_bigbang = ini_read_real( "save1", "lvl_bigbang",store.lvl_bigbang);
+	store.lvl_eagleeyes = ini_read_real( "save1", "lvl_eagleeyes",store.lvl_eagleeyes);
 	//Stats
 	store.enemies_killed = ini_read_real( "save1", "enemies_killed",store.enemies_killed);
 	store.gold_earned = ini_read_real( "save1", "gold_earned",store.gold_earned);

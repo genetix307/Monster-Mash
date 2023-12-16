@@ -10,6 +10,7 @@ myDesc = ""
 myReward = 0
 myCap = 0
 myCur = 0
+myLevel=1
 
 
 

@@ -4,7 +4,7 @@ instance_create_depth(x,y-8,depth-32,explosion)
 instance_destroy()
 
 //Quick Challenge
-if (store.challenge_a=5 or store.challenge_b=5 or store.challenge_c=5) and store.challenge_bigbang<10
+if (store.challenge_a=5 or store.challenge_b=5 or store.challenge_c=5) and store.challenge_bigbang<8+(2*store.lvl_bigbang)
 		{
 		store.challenge_bigbang+=1
 		}

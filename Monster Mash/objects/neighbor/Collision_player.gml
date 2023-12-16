@@ -11,7 +11,7 @@ if room = rm_hellishhills {if hud.neighbors_saved>store.hellishhills_best_saved{
 if room = rm_terrortown {if hud.neighbors_saved>store.terrortown_best_saved{store.terrortown_best_saved=hud.neighbors_saved}}
 
 //Quick Challenge
-if (store.challenge_a=4 or store.challenge_b=4 or store.challenge_c=4) and store.challenge_hero<3
+if (store.challenge_a=4 or store.challenge_b=4 or store.challenge_c=4) and store.challenge_hero<2+(store.lvl_hero)
 		{
 		store.challenge_hero+=1
 		}

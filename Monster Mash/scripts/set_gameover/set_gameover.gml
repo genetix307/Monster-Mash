@@ -14,9 +14,9 @@ if store.card_slot_1 = 12 or store.card_slot_2 = 12 or store.card_slot_3 = 12 or
 		hud.enemy_bonus+=round(hud.enemy_bonus*(store.card_lvl_evilcreed*10)/100)
 	}
 
-store.gold+= hud.run_minutes*store.stage + (hud.neighbors_saved*(10*store.current_stage)) +round(hud.enemies_killed/10)+hud.enemy_bonus +round(hud.level)
-store.gold_earned+= hud.run_minutes*store.stage + (hud.neighbors_saved*(10*store.current_stage)) +round(hud.enemies_killed/10)+hud.enemy_bonus +round(hud.level)
-hud.gold_earned+= hud.run_minutes*store.stage + (hud.neighbors_saved*(10*store.current_stage)) +round(hud.enemies_killed/10)+hud.enemy_bonus +round(hud.level)
+store.gold+= hud.run_minutes*store.stage + (hud.neighbors_saved*(10*store.current_stage)) +round(hud.enemies_killed/10)+hud.enemy_bonus +round(hud.level*store.stage)
+store.gold_earned+= hud.run_minutes*store.stage + (hud.neighbors_saved*(10*store.current_stage)) +round(hud.enemies_killed/10)+hud.enemy_bonus +round(hud.level*store.stage)
+hud.gold_earned+= hud.run_minutes*store.stage + (hud.neighbors_saved*(10*store.current_stage)) +round(hud.enemies_killed/10)+hud.enemy_bonus +round(hud.level*store.stage)
 
 //Check if best run/level for each level
 if store.current_stage=1 {

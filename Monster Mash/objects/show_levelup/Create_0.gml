@@ -18,7 +18,7 @@ ray_angle = 0
 alarm[0]=1 //Create Level Choice Buttons
 
 //Quick Challenge
-if (store.challenge_a=0 or store.challenge_b=0 or store.challenge_c=0) and store.challenge_wisdom<50
+if (store.challenge_a=0 or store.challenge_b=0 or store.challenge_c=0) and store.challenge_wisdom<40+(10*store.lvl_wisdom)
 		{
 		store.challenge_wisdom+=1
 		}

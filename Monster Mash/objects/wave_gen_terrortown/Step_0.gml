@@ -53,7 +53,7 @@ if ring_vampire_vlad>0 {instance_create_depth(x,y,depth,vampire_vlad) ring_vampi
 if hud.run_minutes>=13 {spawn_boss_ufo-=1}
 if spawn_boss_ufo<=0 and instance_number(boss_ufo)<max_boss_ufo {instance_create_depth(x,y,depth,boss_ufo) spawn_boss_ufo=10800 ring_alien_greenguy=25}
 if hud.run_minutes>=9 {spawn_boss_boogie-=1}
-if spawn_boss_boogie<=0 and instance_number(boss_boogie)<max_boss_boogie {instance_create_depth(x,y,depth,boss_boogie) spawn_boss_boogie=64000 ring_mummy_ground=25}
+if spawn_boss_boogie<=0 and instance_number(boss_boogie)<max_boss_boogie {instance_create_depth(x,y,depth,boss_boogie) spawn_boss_boogie=64000 ring_mummy_ground=21}
 if hud.run_minutes>=2 {spawn_boss_brain-=1}
 if spawn_boss_brain<=0 and instance_number(boss_brain)<max_boss_brain {repeat 4 instance_create_depth(random_range(x-24,x+24),y,depth,boss_brain) spawn_boss_brain=64000 ring_mummy_ground=38}
 if hud.run_minutes>=7 {spawn_boss_skullbat-=1}
