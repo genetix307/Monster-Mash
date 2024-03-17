@@ -2,8 +2,11 @@
 game_set_speed(60, gamespeed_fps);
 randomize()
 ads_init()
-version="1.03"
+version="1.04"
 devMode=1
+
+//Prevent screen from timing out
+os_powersave_enable(false);
 
 //Character Stats
 player_max_hp = 30
