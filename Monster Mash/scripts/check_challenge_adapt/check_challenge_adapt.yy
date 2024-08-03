@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"check_challenge_adapt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_challenge_adapt",
+  "parent":{
+    "name":"challenges",
+    "path":"folders/Scripts/challenges.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

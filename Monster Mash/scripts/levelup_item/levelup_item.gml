@@ -89,7 +89,7 @@ if hud.axe_level = 10 {hud.axe_base_damage=25 hud.axe_area=1.9 hud.axe_amount=6}
 if item="bloodknife"
 {
 if hud.bloodknife_level < store.bloodknife_max_level {hud.bloodknife_level+=1}
-if hud.bloodknife_level=1 {set_slot(16,"weapon",1) challenge_adapt()}
+if hud.bloodknife_level=1 {set_slot(16,"weapon",1) check_challenge_adapt()}
 if hud.bloodknife_level = 2 {hud.bloodknife_base_damage=40}
 if hud.bloodknife_level = 3 {hud.bloodknife_base_damage=42}
 if hud.bloodknife_level = 4 {hud.bloodknife_base_damage=44}
@@ -103,7 +103,7 @@ if hud.bloodknife_level = 10 {hud.bloodknife_base_damage=56}
 if item="revolver"
 {
 if hud.revolver_level < store.revolver_max_level {hud.revolver_level+=1}
-if hud.revolver_level=1 {set_slot(17,"weapon",2) challenge_adapt()}
+if hud.revolver_level=1 {set_slot(17,"weapon",2) check_challenge_adapt()}
 if hud.revolver_level = 2 {hud.revolver_base_damage=40 hud.revolver_knockback=18 hud.revolver_area=1.1}
 if hud.revolver_level = 3 {hud.revolver_base_damage=42 hud.revolver_knockback=20 hud.revolver_area=1.2}
 if hud.revolver_level = 4 {hud.revolver_base_damage=44 hud.revolver_knockback=22 hud.revolver_area=1.3}
@@ -131,7 +131,7 @@ if hud.boomerang_level = 10 {hud.boomerang_base_damage=15 hud.boomerang_area=2.2
 if item="fireorb"
 {
 if hud.fireorb_level < store.fireorb_max_level {hud.fireorb_level+=1}
-if hud.fireorb_level=1 {set_slot(21,"weapon",14) challenge_adapt()}
+if hud.fireorb_level=1 {set_slot(21,"weapon",14) check_challenge_adapt()}
 if hud.fireorb_level = 2 {hud.fireorb_base_damage=18 hud.fireorb_area=1.5 hud.fireorb_speed=3.7 hud.fireorb_duration=610}
 if hud.fireorb_level = 3 {hud.fireorb_base_damage=19 hud.fireorb_area=1.6 hud.fireorb_speed=3.75 hud.fireorb_duration=620}
 if hud.fireorb_level = 4 {hud.fireorb_base_damage=20 hud.fireorb_area=1.65 hud.fireorb_speed=3.8 hud.fireorb_duration=630}
@@ -145,7 +145,7 @@ if hud.fireorb_level = 10 {hud.fireorb_base_damage=26 hud.fireorb_area=2  hud.fi
 if item="iceaxe"
 {
 if hud.iceaxe_level < store.iceaxe_max_level {hud.iceaxe_level+=1}
-if hud.iceaxe_level=1 {set_slot(24,"weapon",15) challenge_adapt()}
+if hud.iceaxe_level=1 {set_slot(24,"weapon",15) check_challenge_adapt()}
 if hud.iceaxe_level = 2 {hud.iceaxe_base_damage=26 hud.iceaxe_area=1.3 hud.iceaxe_amount=3}
 if hud.iceaxe_level = 3 {hud.iceaxe_base_damage=27 hud.iceaxe_area=1.4 hud.iceaxe_duration=86}
 if hud.iceaxe_level = 4 {hud.iceaxe_base_damage=28 hud.iceaxe_area=1.5 hud.iceaxe_amount=4}
@@ -187,7 +187,7 @@ if hud.shotgun_level = 10 {hud.shotgun_base_damage=34 hud.shotgun_duration=30 hu
 if item="valari"
 {
 if hud.valari_level < store.valari_max_level {hud.valari_level+=1}
-if hud.valari_level=1 {set_slot(27,"weapon",20) challenge_adapt()}
+if hud.valari_level=1 {set_slot(27,"weapon",20) check_challenge_adapt()}
 if hud.valari_level = 2 {hud.valari_base_damage=18 hud.valari_area=1.25 hud.valari_amount=4}
 if hud.valari_level = 3 {hud.valari_base_damage=20 hud.valari_area=1.35 hud.valari_duration=130}
 if hud.valari_level = 4 {hud.valari_base_damage=22 hud.valari_area=1.5 hud.valari_amount=5}
@@ -216,7 +216,7 @@ if hud.waveblaster_level = 10 {hud.waveblaster_base_damage=44 hud.waveblaster_du
 if item="inferno"
 {
 if hud.inferno_level < store.inferno_max_level {hud.inferno_level+=1}
-if hud.inferno_level=1 {set_slot(30,"weapon",26) challenge_adapt()}
+if hud.inferno_level=1 {set_slot(30,"weapon",26) check_challenge_adapt()}
 if hud.inferno_level = 2 {hud.inferno_base_damage=36 hud.inferno_duration=15 hud.inferno_cooldown=66}
 if hud.inferno_level = 3 {hud.inferno_base_damage=38 hud.inferno_duration=17 hud.inferno_cooldown=60 hud.inferno_amount=4}
 if hud.inferno_level = 4 {hud.inferno_base_damage=40 hud.inferno_duration=19 hud.inferno_cooldown=54 hud.inferno_amount=5}

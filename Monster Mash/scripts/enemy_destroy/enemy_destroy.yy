@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "enemy_destroy",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "enemy",
-    "path": "folders/Scripts/enemy.yy",
+  "$GMScript":"v1",
+  "%Name":"enemy_destroy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"enemy_destroy",
+  "parent":{
+    "name":"enemy",
+    "path":"folders/Scripts/enemy.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
